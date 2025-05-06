@@ -79,7 +79,7 @@ with open("./Data/cpu_load.csv", 'a') as cpu_load_writer:
                 if algo == "Control":
                     time_info_df = pd.DataFrame()
                     
-                    totalRuns = 2
+                    totalRuns = 10
                     curRun = 1
                     curRunData = []
                     
@@ -132,7 +132,7 @@ with open("./Data/cpu_load.csv", 'a') as cpu_load_writer:
                     for key, arb_id in key_arb_pair_AES_CBC:
                         print(f"Testing arb_id: {hex(arb_id)}")
                         
-                        totalRuns = 2
+                        totalRuns = 10
                         curRun = 1
                         curRunData = []
 
@@ -185,7 +185,7 @@ with open("./Data/cpu_load.csv", 'a') as cpu_load_writer:
                     for key, arb_id in key_arb_pair_AES_GCM:
                         print(f"Testing arb_id: {hex(arb_id)}")
                         
-                        totalRuns = 2
+                        totalRuns = 10
                         curRun = 1
                         curRunData = []
 
@@ -240,7 +240,7 @@ with open("./Data/cpu_load.csv", 'a') as cpu_load_writer:
                     for key, arb_id in key_arb_pair_Blowfish:
                         print(f"Testing arb_id: {hex(arb_id)}")
                         
-                        totalRuns = 2
+                        totalRuns = 10
                         curRun = 1
                         curRunData = []
                         while curRun <= totalRuns:
@@ -290,7 +290,7 @@ with open("./Data/cpu_load.csv", 'a') as cpu_load_writer:
                     for key, arb_id in key_arb_pair_Camellia:
                         print(f"Testing arb_id: {hex(arb_id)}")
                         
-                        totalRuns = 2
+                        totalRuns = 10
                         curRun = 1
                         curRunData = []
 
@@ -341,7 +341,7 @@ with open("./Data/cpu_load.csv", 'a') as cpu_load_writer:
                     for key, arb_id in key_arb_pair_3DES:
                         print(f"Testing arb_id: {hex(arb_id)}")
                         
-                        totalRuns = 2
+                        totalRuns = 10
                         curRun = 1
                         curRunData = []
 
@@ -393,7 +393,7 @@ with open("./Data/cpu_load.csv", 'a') as cpu_load_writer:
                     
                     print(f"Testing the {algo} algorithm")
                     
-                    totalRuns = 2
+                    totalRuns = 10
                     curRun = 1
                     curRunData = []
 
@@ -446,7 +446,7 @@ with open("./Data/cpu_load.csv", 'a') as cpu_load_writer:
                     
                     print(f"Testing the {algo} algorithm")
                     
-                    totalRuns = 2
+                    totalRuns = 10
                     curRun = 1
                     curRunData = []
 
